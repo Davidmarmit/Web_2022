@@ -1,0 +1,17 @@
+body{
+    display: inline-block;
+    height: 100%;
+}
+img_login{
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    background-position: left top, right top;
+}
+@media only screen and (min-width: 768px) {
+    login.login__title{
+        height: 200px;
+    }
+}
+
+
+
