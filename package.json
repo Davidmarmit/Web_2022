@@ -8,7 +8,7 @@
     "watch": "npm run browser-reload",
     "build": "del /f /s /q dist\\media && rmdir dist\\media && mkdir dist\\media && copy .\\src\\media .\\dist\\media && npm run html-minifier && npm run css-minifier",
     "start": "node index.js",
-    "1": "npm run build && npm run start",
+    "runall": "npm run build && npm run start",
     "poststart": "rmdir -r dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "html-minifier": "html-minifier --input-dir src --output-dir dist --file-ext html --remove-comments --collapse-whitespace --minify-js true --minify-css true",
