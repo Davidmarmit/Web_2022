@@ -19,7 +19,6 @@
     height: 100%;
     text-align: center;
     margin-top: 200px;
-    scale: 3;
 }
 
 
@@ -96,11 +95,9 @@
     background-color: rgba(82, 78, 78, 0.67);
 }
 
-body{
-    background: #fcfcfc;
-}
 footer{
-    position: absolute;
+    margin-top: auto;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
@@ -173,6 +170,110 @@ footer{
     opacity: .4;
     font-weight: 200;
 }
+.event{
+    margin: 200px !important;
 
+}
+
+.event-content{
+    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 3), inset 10px 10px 10px -10px rgba(0, 0, 0, 5);
+    padding: 10px;
+    margin-top: -70px !important;
+    margin-left: 20px !important;
+    position: relative;
+    justify-content: center;
+    background-color: aliceblue !important;
+    margin-right: 20px !important;
+}
+.foto-event {
+    text-align: center;
+    width: 90%;
+    height: 30%;
+    margin-top: 20px;
+}
+
+.body_signup{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    background-image: url("../media/background.jpg");
+    background-size: auto;
+    background-position: left;
+}
+
+
+
+
+.sign-up-form{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0 , 0, 3);
+    background: black;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+
+}
+
+.sign-up-form h1{
+    color: aqua;
+    margin-bottom: 30px;
+}
+
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #999;
+    outline: none;
+    transition: 0.25s;
+    text-align: center;
+}
+
+.input-box:focus{
+    width: 280px;
+    border-color: aqua;
+}
+
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.showMore-btn{
+    margin-top: 20px;
+    height: 80%;
+    width: 8%;
+    background-color: aqua;
+}
+
+.signUp-btn{
+    background-color: aqua;
+}
+
+.register-btn{
+    background-color: aqua;
+}
+
+hr{
+    margin-top: 20px;
+    color: aqua;
+}
+
+p{
+    color: aqua;
+}
+
+.col-sm-5{
+    margin-top: 30px;
+}
 
 
