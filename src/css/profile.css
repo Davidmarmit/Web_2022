@@ -1,0 +1,233 @@
+
+body{
+   margin-top: 20px;
+   border-color: lightgrey; 
+}
+.main{
+    padding: 15px;
+    font-family: "Montserrat";
+}
+
+.sidebar{
+   background-color: black;
+   color: aqua;
+   height: 100%;
+}
+
+.sidebar a{
+    margin-top: 20%;
+    margin-left: 10px;
+    display: block;
+    color: aqua;
+    padding-bottom: 10px;
+    font-size: 22px;
+    text-decoration: none;
+}
+p{
+    margin-left: 10px;
+    display: block;
+    color: aqua;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-decoration: none; 
+}
+.sidebar a1{
+    margin-top: 80%;
+    margin-left: 10px;
+    vertical-align: bottom;
+    color: red;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+   
+}
+.h3{
+    display: inline;
+}
+
+.card{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    word-break: normal;
+
+ 
+}
+
+.row{
+    margin-bottom: -10%;
+
+
+}
+
+button{
+    color: aqua;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.addFriends-btn{
+    background-color: navy;
+}
+
+
+.content{
+    background-color: white;
+
+}
+
+footer{
+    margin-top: auto;
+    position: relative;
+    align-self: end;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#111;
+    height: auto;
+    width: 100vw;
+    font-family: "Montserrat";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    position: relative;
+    display: flex;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
+.header {
+    width: 100%;
+    height: 90px;
+    display: block;
+    background-color: #111;
+}
+
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span{
+    font-weight: 800;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+
+}
+
+.navigation a li.highlight{
+    background-color: rgba(82, 78, 78, 0.67);
+}
+
+.navigation a:last-child{
+    padding-right: 0;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100px;
+    text-align: center;
+    color  : white;
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+.navigation a li:hover{
+    color: aqua;
+    background-color: rgba(82, 78, 78, 0.67);
+}

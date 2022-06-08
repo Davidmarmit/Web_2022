@@ -98,6 +98,7 @@
 footer{
     margin-top: auto;
     position: relative;
+    align-self: end;
     bottom: 0;
     left: 0;
     right: 0;
@@ -274,6 +275,9 @@ p{
 
 .col-sm-5{
     margin-top: 30px;
+}
+.row{
+    width: 100%;
 }
 
 
